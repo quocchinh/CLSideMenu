@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ExampleMainViewController.h
 //  CLSideMenu
 //
 //  Created by Chinh Le on 11/22/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ExampleMainViewController : UIViewController
 
 @end

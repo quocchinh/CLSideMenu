@@ -14,13 +14,16 @@
 		906F4D49183F44E9004B374A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D48183F44E9004B374A /* main.m */; };
 		906F4D4D183F44E9004B374A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D4C183F44E9004B374A /* AppDelegate.m */; };
 		906F4D50183F44E9004B374A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906F4D4E183F44E9004B374A /* Main.storyboard */; };
-		906F4D53183F44EA004B374A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D52183F44EA004B374A /* ViewController.m */; };
 		906F4D55183F44EA004B374A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906F4D54183F44EA004B374A /* Images.xcassets */; };
 		906F4D5C183F44EA004B374A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906F4D5B183F44EA004B374A /* XCTest.framework */; };
 		906F4D5D183F44EA004B374A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906F4D3C183F44E9004B374A /* Foundation.framework */; };
 		906F4D5E183F44EA004B374A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906F4D40183F44E9004B374A /* UIKit.framework */; };
 		906F4D66183F44EA004B374A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 906F4D64183F44EA004B374A /* InfoPlist.strings */; };
 		906F4D68183F44EA004B374A /* CLSideMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D67183F44EA004B374A /* CLSideMenuTests.m */; };
+		906F4D75183F4556004B374A /* CLMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D72183F4556004B374A /* CLMenuViewController.m */; };
+		906F4D76183F4556004B374A /* CLSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D74183F4556004B374A /* CLSideMenuViewController.m */; };
+		906F4D79183F45A3004B374A /* ExampleMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D78183F45A3004B374A /* ExampleMenuViewController.m */; };
+		906F4D7C183F4757004B374A /* ExampleMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F4D7B183F4757004B374A /* ExampleMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,20 @@
 		906F4D4B183F44E9004B374A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		906F4D4C183F44E9004B374A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		906F4D4F183F44E9004B374A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		906F4D51183F44EA004B374A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		906F4D52183F44EA004B374A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		906F4D54183F44EA004B374A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		906F4D5A183F44EA004B374A /* CLSideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLSideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		906F4D5B183F44EA004B374A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		906F4D63183F44EA004B374A /* CLSideMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CLSideMenuTests-Info.plist"; sourceTree = "<group>"; };
 		906F4D65183F44EA004B374A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		906F4D67183F44EA004B374A /* CLSideMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLSideMenuTests.m; sourceTree = "<group>"; };
+		906F4D71183F4556004B374A /* CLMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMenuViewController.h; sourceTree = "<group>"; };
+		906F4D72183F4556004B374A /* CLMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMenuViewController.m; sourceTree = "<group>"; };
+		906F4D73183F4556004B374A /* CLSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSideMenuViewController.h; sourceTree = "<group>"; };
+		906F4D74183F4556004B374A /* CLSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSideMenuViewController.m; sourceTree = "<group>"; };
+		906F4D77183F45A3004B374A /* ExampleMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMenuViewController.h; sourceTree = "<group>"; };
+		906F4D78183F45A3004B374A /* ExampleMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMenuViewController.m; sourceTree = "<group>"; };
+		906F4D7A183F4757004B374A /* ExampleMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleMainViewController.h; sourceTree = "<group>"; };
+		906F4D7B183F4757004B374A /* ExampleMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +121,8 @@
 		906F4D42183F44E9004B374A /* CLSideMenu */ = {
 			isa = PBXGroup;
 			children = (
-				906F4D4B183F44E9004B374A /* AppDelegate.h */,
-				906F4D4C183F44E9004B374A /* AppDelegate.m */,
-				906F4D4E183F44E9004B374A /* Main.storyboard */,
-				906F4D51183F44EA004B374A /* ViewController.h */,
-				906F4D52183F44EA004B374A /* ViewController.m */,
+				906F4D7E183F4776004B374A /* Example */,
+				906F4D7D183F476A004B374A /* Library */,
 				906F4D54183F44EA004B374A /* Images.xcassets */,
 				906F4D43183F44E9004B374A /* Supporting Files */,
 			);
@@ -150,6 +156,31 @@
 				906F4D64183F44EA004B374A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		906F4D7D183F476A004B374A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				906F4D71183F4556004B374A /* CLMenuViewController.h */,
+				906F4D72183F4556004B374A /* CLMenuViewController.m */,
+				906F4D73183F4556004B374A /* CLSideMenuViewController.h */,
+				906F4D74183F4556004B374A /* CLSideMenuViewController.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		906F4D7E183F4776004B374A /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				906F4D4B183F44E9004B374A /* AppDelegate.h */,
+				906F4D4C183F44E9004B374A /* AppDelegate.m */,
+				906F4D4E183F44E9004B374A /* Main.storyboard */,
+				906F4D77183F45A3004B374A /* ExampleMenuViewController.h */,
+				906F4D78183F45A3004B374A /* ExampleMenuViewController.m */,
+				906F4D7A183F4757004B374A /* ExampleMainViewController.h */,
+				906F4D7B183F4757004B374A /* ExampleMainViewController.m */,
+			);
+			name = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906F4D53183F44EA004B374A /* ViewController.m in Sources */,
+				906F4D7C183F4757004B374A /* ExampleMainViewController.m in Sources */,
+				906F4D75183F4556004B374A /* CLMenuViewController.m in Sources */,
 				906F4D4D183F44E9004B374A /* AppDelegate.m in Sources */,
+				906F4D76183F4556004B374A /* CLSideMenuViewController.m in Sources */,
+				906F4D79183F45A3004B374A /* ExampleMenuViewController.m in Sources */,
 				906F4D49183F44E9004B374A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
